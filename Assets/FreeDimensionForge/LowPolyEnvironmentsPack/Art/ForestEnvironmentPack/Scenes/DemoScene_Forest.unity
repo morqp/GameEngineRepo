@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 3
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 2100000, guid: 539a4fa8f0b35d740a28d31c3f1c2a0a, type: 2}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 50bf15468c19e0e40b5bf26662770a34, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -7148,7 +7148,7 @@ PrefabInstance:
     - target: {fileID: 2199152789509337122, guid: 2c6139628bf17834f84d427befedb9f0,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.13
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2199152789509337122, guid: 2c6139628bf17834f84d427befedb9f0,
         type: 3}
@@ -7193,7 +7193,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2945261898625810993, guid: 2c6139628bf17834f84d427befedb9f0,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1902159388}
   m_SourcePrefab: {fileID: 100100000, guid: 2c6139628bf17834f84d427befedb9f0, type: 3}
 --- !u!1001 &178651187
 PrefabInstance:
@@ -73704,6 +73708,25 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1901008976}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1902159384 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2945261898625810993, guid: 2c6139628bf17834f84d427befedb9f0,
+    type: 3}
+  m_PrefabInstance: {fileID: 177603164}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1902159388
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1902159384}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa9669552927d01458849ebe01647ed7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotMag: 100
 --- !u!4 &1907009004 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6766557550984586008, guid: 185207286880b5e44a7940a40f7f409c,
